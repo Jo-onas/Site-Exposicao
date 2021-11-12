@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+  body {
+	background-image: url(https://dbdzm869oupei.cloudfront.net/img/vinylrugs/preview/46933.png);
+	
+}
+
+
+/*  Navbar   */
+
+ nav {
+  height: 90px;
+  background-color: rgb(58, 114, 192);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: px;
+ }
+
+nav img {
+	margin-left: 10px;
+	height: 75px;
+	width: 75px;
+	border-radius: 50%;
+}
+
+nav .navigation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav .navigation li a {
+	text-decoration: none;
+	margin-left: 30px;
+	font-size: 25px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+nav .navigation li {
+	list-style-type: none;
+	margin-right: 20px;
+	
+}
+
+
+
+
+/*  SlideShow Apresentação */
+
+	.Banner {
+		overflow: hidden;
+		max-height: 800px;
+	}
+
+
+
+ .slider {
+ 	width: 400vw;
+ 	display: flex;
+ 	transition: all 0.7s ease-in-out;
+
+ }
+
+	.conteudoslider {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+ }
+
+
+ .conteudoslider .Sbg{
+ 	width: 100vw;
+ 	height: 100vh;
+	 max-height: 800px;
+ 	
+ }
+
+
+
+
+
+
+ /*  Botão   */
+
+.botao {
+	
+	display: flex;
+	height: 200px;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	
+}
+
+
+
+
+/*  Apoiadores   */
+
+ .leadlogo2 {
+	width: 140px;
+}
+
+ .alura2 {
+	 width: 100px;
+ }
+
+ .luiza2 {
+	 width: 170px;
+}
+
+.instagram2 {
+	width: 200px;
+}
+
+.conatainer {
+	position: relative;
+	width: 98vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	flex-wrap: wrap;
+
+}
+
+.conatainer .servicebox {
+	position: relative;
+	width: 350px;
+	height: 280px;
+	background: #4e5063e1;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.conatainer .servicebox .icon {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #0b0b23;
+	transition: 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 2;
+}
+
+.conatainer .servicebox:hover .icon {
+	top: 30px;
+	left: calc(50% - 70px);
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.conatainer .servicebox .content {
+	position: relative;
+	padding: 45px;
+	text-align: center;
+	margin-top: 150px;
+	z-index: 1;
+}
+
+
+
+
+  /* RODAPE */
+
+ footer {
+ 	font-family: 'Poppins', sans-serif;
+ 	background-color: black;
+ 	height: 230px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+ }
+
+ .rodape {
+	 margin-left: 50px;
+	 display: flex;
+	 flex-direction: column;
+	 /*animation: animation 2s;*/
+ }
+
+
+ footer p {
+	color: aliceblue;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+ footer li {
+	 margin-top: 10px;
+	 display: flex;
+	 flex-direction: column;
+ }
+
+ footer a {
+	  color: aliceblue;
+	  margin-bottom: 2px;
+  }
+
+  @keyframes animation {
+
+	from {
+		transform: translateY(20vw);
+	}
+
+	to {
+		transform: translateY();
+	}
+  }
+
+
+ .aluradiv {
+	 display: flex;
+	 align-items: center;
+	 justify-content: space-between;
+ }
+
+ .leadlogo {
+	width: 150px;
+	margin-right: 20px;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.atheneulogo {
+	padding: 5px;
+	width: 210px;
+	margin-right: 20px;
+}
+
+ .alura {
+	 width: 100px;
+	 padding: 15px;
+
+ }
+
+ .luiza {
+	 width: 130px;
+ }
+
+ .aluradiv img:hover{
+	background-color: rgba(168, 168, 168, 0.329);
+	border-radius: 5px;
+ }
+ /*FIM DO RODAPE*/
